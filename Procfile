@@ -1,1 +1,1 @@
-web: XDG_CACHE_HOME="$PWD/.asdf/" ./ccl/scripts/ccl64 --load quicklisp/asdf.lisp --load quicklisp/setup.lisp --eval "(ql:quickload :hunchentoot)" --eval "(hunchentoot:start (make-instance 'hunchentoot:easy-acceptor :port $PORT))"
+web: XDG_CACHE_HOME="$PWD/.asdf/" ./sbcl/sbcl-1.0.54-x86-64-linux/run-sbcl.sh --load quicklisp/setup.lisp --eval "(ql:quickload :hunchentoot)" --eval "(hunchentoot:start (make-instance 'hunchentoot:easy-acceptor :port $PORT))"
