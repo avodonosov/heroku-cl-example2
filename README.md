@@ -1,5 +1,5 @@
 Example application for [my rework of the Heroku build pack] (https://github.com/avodonosov/heroku-buildpack-cl2).
-It runs fresh Hunchentoot. 
+It just runs fresh Hunchentoot. 
 
 Available here: http://rocky-island-7243.herokuapp.com/.
 
